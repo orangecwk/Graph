@@ -3,18 +3,16 @@
 
 [![Demo Page](https://img.shields.io/badge/Web-Demo%20Page-blue.svg)](https://anonymous.4open.science/r/GraphTalker)
 
-This repository contains the official PyTorch implementation of the paper:
-**"HYBRID GRAPH-EMBEDDING RETRIEVAL WITH MULTI-VIEW GRAPHS FOR CONVERSATIONAL SPEECH SYNTHESIS"**.
 
-> **Authors:** Rui Liu*, Wenkai Cheng, Zhenqi Jia  
-> **Affiliation:** Inner Mongolia University  
-> **Demo Page:** [Graph-Talker Audio Demos](https://anonymous.4open.science/r/GraphTalker)
+**Authors:** Rui Liu*, Wenkai Cheng, Zhenqi Jia  
+**Affiliation:** Inner Mongolia University  
+**Demo Page:** [Graph-Talker Audio Demos](https://anonymous.4open.science/r/GraphTalker)
 
 ---
 
 ## 📌 Abstract
 
-Conversational Speech Synthesis (CSS) aims to generate speech with natural prosody and contextually coherent sentiment in multi-turn dialogues. Existing methods struggle to capture structured semantic dependencies and fine-grained sentiment evolution across dialogue instances. 
+Conversational Speech Synthesis (CSS) aims to generate speech with natural prosody and contextually coherent sentiment in multi-turn dialogues, where modeling sentiment dynamics is essential for high-quality generation. Existing approaches predominantly rely on continuous representations of dialogue history, which are inadequate for capturing structured semantic dependencies and fine-grained sentiment evolution, often resulting in structural misalignment between retrieved and current dialogues as well as limited interpretability. To address these challenges, we propose Graph-Talker, a structure-aware retrieval-augmented framework for sentiment-aware CSS. Specifically, we construct hierarchical multi-view dialogue graphs that organize conversations into semantic and sentiment views with global–local structures, and introduce dialogue-level semantic and sentiment captions as global constraint nodes to enhance structured representations. Building upon this, we design a hybrid retrieval strategy that jointly exploits graph structural signals and embedding similarity, along with a hierarchical fusion mechanism that incorporates retrieved knowledge as structural constraints, enabling coordinated modeling of semantic and sentiment information during speech generation. Experimental results demonstrate that Graph-Talker consistently improves sentiment consistency and speech naturalness over strong baselines, while providing an interpretable and extensible framework for structured sentiment modeling in CSS. Code and demos are available at: https://github.com/orangecwk/Graph.
 
 To address these challenges, we propose **Graph-Talker**, a structure-aware retrieval-augmented framework for sentiment-aware CSS:
 1. **Multi-View Hierarchical Graph Construction:** We organize multi-turn conversations into complementary **semantic** and **sentiment** views, anchored by LLM-generated (LLaMA3-8B) global dialogue captions.
@@ -39,5 +37,6 @@ To address these challenges, we propose **Graph-Talker**, a structure-aware retr
 * **PyTorch:** 2.0.1 + CUDA 11.8
 * **Dependencies:**
   ```bash
-  pip install -r requirements.txt
-```
+    pip install -r requirements.txt
+  ```
+
