@@ -1,14 +1,12 @@
 # Graph-Talker: Hybrid Graph-Embedding Retrieval with Multi-View Graphs for Conversational Speech Synthesis
 
-
-[![Demo Page](https://img.shields.io/badge/Web-Demo%20Page-blue.svg)](https://anonymous.4open.science/r/GraphTalker)
-
-
 **Authors:** Rui Liu*, Wenkai Cheng, Zhenqi Jia  
 **Affiliation:** Inner Mongolia University  
-**Demo Page:** [Graph-Talker Audio Demos](https://anonymous.4open.science/r/GraphTalker)
-
 ---
+
+## Demo Page
+
+[Speech Demo](xxxxxxx)
 
 ## 📌 Abstract
 
