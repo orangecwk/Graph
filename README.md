@@ -7,7 +7,7 @@ Inner Mongolia University
 
 ## Demo Page
 
-[Speech Demo](xxxxxxx)
+[Speech Demo](https://orangecwk.github.io/Graph-Talker_Demo/)
 
 ## 📌 Abstract
 
