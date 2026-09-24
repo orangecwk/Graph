@@ -1,7 +1,7 @@
 # Graph-Talker: Hybrid Graph-Embedding Retrieval with Multi-View Graphs for Conversational Speech Synthesis
 
 Authors: Rui Liu, Wenkai Cheng, Zhenqi Jia  
-Affiliation: Inner Mongolia University  
+Inner Mongolia University  
 
 ---
 
