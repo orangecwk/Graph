@@ -32,9 +32,6 @@ To address these challenges, we propose **Graph-Talker**, a structure-aware retr
 
 ## ⚙️ Dependencies and Environment
 
-* **Operating System:** Ubuntu 22.04 LTS
-* **Python:** 3.9.18
-* **PyTorch:** 2.0.1 + CUDA 11.8
 * **Dependencies:**
   ```bash
     pip install -r requirements.txt
